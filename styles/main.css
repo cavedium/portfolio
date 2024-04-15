@@ -14,13 +14,10 @@ h3,
 h4,
 h5,
 h6 {
-	color: #FFFFFF;
+	color: #42446E;
 }
 
 .wrapper {
-	/* max-width: 1182px;
-	margin: 0 auto; */
-
 	max-width: 1210px;
 	margin: 0 auto;
 	padding-left: 15px;
@@ -89,7 +86,7 @@ h6 {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	margin: 200px 0 0 0;
+	margin: 200px 0 200px 0;
 }
 
 .hero-title {
@@ -97,7 +94,6 @@ h6 {
 	font-size: 58px;
 	line-height: 121%;
 	letter-spacing: -0.02em;
-	color: #42446E;
 	width: 635px;
 }
 
@@ -114,9 +110,33 @@ h6 {
 	background: linear-gradient(360deg, #13b0f5 2.6%, #e70faa 100%) border-box;
 	border-radius: 230px;
 }
-
-
 /* ========== HERO ========== */
+
+/* ========== MY TECH STACK ========== */
+.my-tech-stack-title {
+	font-weight: 700;
+	font-size: 48px;
+	text-align: center;
+}
+
+.my-tech-stack-text {
+	font-weight: 400;
+	font-size: 32px;
+	text-align: center;
+	color: #666;
+	margin: 50px 0 140px 0;
+}
+
+.tech-stack-list {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 90px;
+	margin: 0 0 215px 0;
+}
+
+/* ========== MY TECH STACK ========== */
 
 /* ========== MAIN ========== */
 
@@ -138,7 +158,7 @@ h6 {
 	.hero-list {
 		flex-direction: column-reverse;
 		text-align: center;
-		margin: 150px 0 0 0;
+		margin: 150px 0 150px 0;
 	}
 
 	.hero-img {
@@ -195,9 +215,20 @@ h6 {
 		left: 0;
 	}
 
-	.hero-title {
+	.hero-title,
+	.my-tech-stack-title {
 		max-width: 481px;
 		font-size: 46px;
+	}
+
+	.my-tech-stack-text {
+		font-size: 20px;
+		margin-bottom: 100px;
+	}
+
+	.tech-stack-logo {
+		width: 100px;
+		height: 100px;
 	}
 }
 
@@ -212,8 +243,8 @@ h6 {
 		gap: 0;
 	}
 
-	.hero-title {
-
+	.hero-title,
+	.my-tech-stack-title {
 		max-width: 321px;
 		font-size: 28px;
 	}
@@ -221,6 +252,15 @@ h6 {
 	.hero-me {
 		width: 300px;
 		height: 300px;
+	}
+
+	.my-tech-stack-text {
+		font-size: 14px;
+	}
+
+	.tech-stack-logo {
+		width: 80px;
+		height: 80px;
 	}
 }
 
