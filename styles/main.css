@@ -213,9 +213,14 @@ h6 {
 	}
 
 	.hero-title {
-		
+
 		max-width: 321px;
 		font-size: 28px;
+	}
+
+	.hero-me {
+		width: 300px;
+		height: 300px;
 	}
 }
 
