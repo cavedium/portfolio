@@ -8,6 +8,7 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@300;400;500;700&display=swap"
 		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="./styles/main.css">
 </head>
 
@@ -90,44 +91,59 @@
 			<div class="wrapper">
 				<h1 class="my-tech-stack-title">My Tech Stack</h1>
 				<p class="my-tech-stack-text">Technologies I’ve been working with recently</p>
-				<ul class="tech-stack-list list">
-					<li class="tech-stack-item">
-						<img src="./img/html-icon.svg" alt="html5" class="tech-stack-logo" width="120px" height="120px">
-					</li>
-					<li class="tech-stack-item">
-						<img src="./img/css-icon.svg" alt="css" class="tech-stack-logo" width="120px" height="120px">
-					</li>
-					<li class="tech-stack-item">
-						<img src="./img/js-icon.svg" alt="JavaScript" class="tech-stack-logo" width="120px" height="120px">
-					</li>
-					<li class="tech-stack-item">
-						<img src="./img/react-icon.svg" alt="React" class="tech-stack-logo" width="120px" height="120px">
-					</li>
-					<li class="tech-stack-item">
-						<img src="./img/none-icon.svg" alt="" class="tech-stack-logo" width="120px" height="120px">
-					</li>
-					<li class="tech-stack-item">
-						<img src="./img/bootstrap-icon.svg" alt="bootstrap" class="tech-stack-logo" width="120px" height="120px">
-					</li>
-					<li class="tech-stack-item">
-						<img src="./img/tailwind-icon.svg" alt="tailwind" class="tech-stack-logo" width="120px" height="120px">
-					</li>
-					<li class="tech-stack-item">
-						<img src="./img/sass-icon.svg" alt="sass" class="tech-stack-logo" width="120px" height="120px">
-					</li>
-					<li class="tech-stack-item">
-						<img src="./img/git-icon.svg" alt="git" class="tech-stack-logo" width="120px" height="120px">
-					</li>
-					<li class="tech-stack-item">
-						<img src="./img/greensock-icon.svg" alt="greensock" class="tech-stack-logo" width="120px" height="120px">
-					</li>
-					<li class="tech-stack-item">
-						<img src="./img/vscode-icon.svg" alt="vscode" class="tech-stack-logo" width="120px" height="120px">
-					</li>
-					<li class="tech-stack-item">
-						<img src="./img/github-icon.svg" alt="github" class="tech-stack-logo" width="120px" height="120px">
-					</li>
-				</ul>
+				<div class="swiper mySwiper">
+					<ul class="tech-stack-list swiper-wrapper list">
+						<li class="swiper-slide tech-stack-item">
+							<img src="./img/html-icon.svg" alt="html5" class="tech-stack-logo" width="120px"
+								height="120px">
+						</li>
+						<li class="swiper-slide tech-stack-item">
+							<img src="./img/css-icon.svg" alt="css" class="tech-stack-logo" width="120px"
+								height="120px">
+						</li>
+						<li class="swiper-slide tech-stack-item">
+							<img src="./img/js-icon.svg" alt="JavaScript" class="tech-stack-logo" width="120px"
+								height="120px">
+						</li>
+						<li class="swiper-slide tech-stack-item">
+							<img src="./img/react-icon.svg" alt="React" class="tech-stack-logo" width="120px"
+								height="120px">
+						</li>
+						<li class="swiper-slide tech-stack-item">
+							<img src="./img/none-icon.svg" alt="" class="tech-stack-logo" width="120px" height="120px">
+						</li>
+						<li class="swiper-slide tech-stack-item">
+							<img src="./img/bootstrap-icon.svg" alt="bootstrap" class="tech-stack-logo" width="120px"
+								height="120px">
+						</li>
+						<li class="swiper-slide tech-stack-item">
+							<img src="./img/tailwind-icon.svg" alt="tailwind" class="tech-stack-logo" width="120px"
+								height="120px">
+						</li>
+						<li class="swiper-slide tech-stack-item">
+							<img src="./img/sass-icon.svg" alt="sass" class="tech-stack-logo" width="120px"
+								height="120px">
+						</li>
+						<li class="swiper-slide tech-stack-item">
+							<img src="./img/git-icon.svg" alt="git" class="tech-stack-logo" width="120px"
+								height="120px">
+						</li>
+						<li class="swiper-slide tech-stack-item">
+							<img src="./img/greensock-icon.svg" alt="greensock" class="tech-stack-logo" width="120px"
+								height="120px">
+						</li>
+						<li class="swiper-slide tech-stack-item">
+							<img src="./img/vscode-icon.svg" alt="vscode" class="tech-stack-logo" width="120px"
+								height="120px">
+						</li>
+						<li class="swiper-slide tech-stack-item">
+							<img src="./img/github-icon.svg" alt="github" class="tech-stack-logo" width="120px"
+								height="120px">
+						</li>
+					</ul>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
 			</div>
 		</section>
 
@@ -147,6 +163,7 @@
 		</div>
 	</footer>
 
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 	<script src="./scrypt/main.js"></script>
 </body>
 
