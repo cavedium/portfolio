@@ -110,6 +110,7 @@ h6 {
 	background: linear-gradient(360deg, #13b0f5 2.6%, #e70faa 100%) border-box;
 	border-radius: 230px;
 }
+
 /* ========== HERO ========== */
 
 /* ========== MY TECH STACK ========== */
@@ -127,6 +128,13 @@ h6 {
 	margin: 50px 0 140px 0;
 }
 
+.swiper-wrapper,
+.swiper-slide,
+.swiper-button-next,
+.swiper-button-prev {
+	display: none;
+}
+
 .tech-stack-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -134,6 +142,11 @@ h6 {
 	justify-content: space-between;
 	gap: 90px;
 	margin: 0 0 215px 0;
+}
+
+.tech-stack-item {
+	display: block;
+	width: 120px;
 }
 
 /* ========== MY TECH STACK ========== */
@@ -230,6 +243,37 @@ h6 {
 		width: 100px;
 		height: 100px;
 	}
+
+	.tech-stack-list {
+		flex-wrap: nowrap;
+		gap: 0px;
+	}
+
+	.swiper-button-next,
+	.swiper-button-prev {
+		display: block;
+	}
+
+	.swiper {
+		width: 400px;
+		height: 200px;
+	}
+
+	.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		background: #F5F5F5;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.swiper-slide img {
+		display: block;
+		width: 120px;
+		height: 120px;
+	}
+
 }
 
 /* MOBILE */
@@ -256,11 +300,16 @@ h6 {
 
 	.my-tech-stack-text {
 		font-size: 14px;
+		margin-bottom: 50px;
 	}
 
-	.tech-stack-logo {
-		width: 80px;
-		height: 80px;
+	.swiper {
+		width: auto;
+	}
+
+	.swiper-slide img {
+		width: 100px;
+		height: 100px;
 	}
 }
 
