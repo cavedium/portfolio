@@ -249,7 +249,7 @@ h6 {
 		gap: 0px;
 	}
 
-	.swiper-button-next,
+	/* .swiper-button-next,
 	.swiper-button-prev {
 		display: block;
 	}
@@ -272,8 +272,37 @@ h6 {
 		display: block;
 		width: 120px;
 		height: 120px;
+	} */
+
+	.swiper {
+		width: 350px;
+		height: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 
+	.swiper-slide {
+		background-position: center;
+		background-size: cover;
+		width: 120px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.swiper-slide img {
+		display: block;
+		width: 120px;
+		height: 120px;
+	}
+
+	.swiper-3d .swiper-slide-shadow-left {
+		background-image: none;
+	}
+
+	.swiper-3d .swiper-slide-shadow-right {
+		background-image: none;
+	}
 }
 
 /* MOBILE */
