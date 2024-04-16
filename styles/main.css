@@ -245,6 +245,27 @@ h6 {
 
 /* ========== PROJECTS ========== */
 
+/* ========== INFO ========== */
+.info-list {
+	display: flex;
+	margin: 200px 0 40px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.info-list li.info-list-logo {
+	margin: 0 500px 0 0;
+}
+
+.info-link {
+	font-family: "DM Sans", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #42446e;
+}
+
+/* ========== INFO ========== */
+
 /* ========== MAIN ========== */
 
 /* PC */
@@ -414,6 +435,17 @@ h6 {
 
 	.projects-list {
 		justify-content: center;
+	}
+
+	.info-list {
+		flex-direction: column;
+		/* align-items: normal; */
+		gap: 20px;
+	}
+
+	.info-list li.info-list-logo {
+		align-items: center;
+		margin: 0;
 	}
 }
 
