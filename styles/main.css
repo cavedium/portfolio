@@ -151,6 +151,100 @@ h6 {
 
 /* ========== MY TECH STACK ========== */
 
+/* ========== PROJECTS ========== */
+.projects-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.projects-title {
+	font-weight: 700;
+	font-size: 48px;
+	text-align: center;
+}
+
+.projects-text {
+	font-weight: 400;
+	font-size: 32px;
+	text-align: center;
+	color: #666;
+	margin: 50px 0 100px 0;
+}
+
+.projects-list-item {
+	border-radius: 20px;
+	width: 375px;
+	height: 567px;
+	box-shadow: 2px 2px 100px 0 rgba(0, 0, 0, 0.2);
+	background: #fff;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.projects-list-item:hover {
+	transition: 0.5s;
+	box-shadow: 2px 2px 100px 0 #13b0f5;
+}
+
+
+.projects-list-item-wrapper {
+	margin: 0 30px 0 30px;
+}
+
+.projects-item-img {
+	border-radius: 20px 20px 0 0;
+}
+
+.projects-item-title {
+	font-weight: 500;
+	font-size: 28px;
+	color: #000;
+	margin: 10px 0 0 0;
+}
+
+.projects-item-text {
+	font-weight: 300;
+	font-size: 18px;
+	color: #666;
+	margin: 15px 0 12px 0;
+}
+
+.projects-item-tech-stack {
+	font-weight: 400;
+	font-size: 16px;
+	color: #42446e;
+}
+
+.projects-item-tech-stack span {
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.projects-item-links-list,
+.projects-item-links {
+	display: flex;
+}
+
+.projects-item-links-list {
+	justify-content: space-between;
+	margin: 20px 0 0 0;
+}
+
+.projects-item-links {
+	align-items: center;
+	gap: 10px;
+}
+
+.link-text {
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	color: #000;
+}
+
+/* ========== PROJECTS ========== */
+
 /* ========== MAIN ========== */
 
 /* PC */
@@ -176,6 +270,41 @@ h6 {
 
 	.hero-img {
 		margin: 0 0 50px 0;
+	}
+
+	.projects-list {
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 90px;
+	}
+
+	.projects-list-item {
+		width: 325px;
+	}
+
+	.projects-item-img {
+		width: 325px;
+	}
+
+	.projects-item-title {
+		font-size: 20px;
+	}
+
+	.projects-item-text {
+		font-size: 16px;
+	}
+
+	.projects-item-tech-stack {
+		font-size: 14px;
+	}
+
+	.projects-item-tech-stack span {
+		font-size: 10px;
+	}
+
+	.link-text {
+		font-size: 14px;
 	}
 }
 
@@ -249,31 +378,6 @@ h6 {
 		gap: 0px;
 	}
 
-	/* .swiper-button-next,
-	.swiper-button-prev {
-		display: block;
-	}
-
-	.swiper {
-		width: 400px;
-		height: 200px;
-	}
-
-	.swiper-slide {
-		text-align: center;
-		font-size: 18px;
-		background: #F5F5F5;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.swiper-slide img {
-		display: block;
-		width: 120px;
-		height: 120px;
-	} */
-
 	.swiper {
 		width: 350px;
 		height: 100px;
@@ -302,6 +406,14 @@ h6 {
 
 	.swiper-3d .swiper-slide-shadow-right {
 		background-image: none;
+	}
+
+	.projects-title {
+		margin-top: 100px;
+	}
+
+	.projects-list {
+		justify-content: center;
 	}
 }
 
@@ -339,6 +451,14 @@ h6 {
 	.swiper-slide img {
 		width: 100px;
 		height: 100px;
+	}
+
+	.projects-title {
+		font-size: 28px;
+	}
+
+	.projects-text {
+		font-size: 14px;
 	}
 }
 
