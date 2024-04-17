@@ -17,6 +17,12 @@ h6 {
 	color: #42446E;
 }
 
+hr {
+	height: 2px;
+	border: none;
+	background-color: lightgray;
+}
+
 .wrapper {
 	max-width: 1210px;
 	margin: 0 auto;
@@ -268,6 +274,14 @@ h6 {
 
 /* ========== MAIN ========== */
 
+/* ========== FOOTER ========== */
+.footer-menu-list {
+	display: flex;
+	margin: 60px 0;
+	gap: 55px;
+}
+/* ========== FOOTER ========== */
+
 /* PC */
 @media (max-width: 1210px) {
 	.wrapper {
@@ -326,6 +340,14 @@ h6 {
 
 	.link-text {
 		font-size: 14px;
+	}
+
+	.info-list li.info-list-logo {
+		margin: 0;
+	}
+
+	.footer-menu-list {
+		justify-content: center;
 	}
 }
 
@@ -445,7 +467,10 @@ h6 {
 
 	.info-list li.info-list-logo {
 		align-items: center;
-		margin: 0;
+	}
+
+	.footer-menu-item {
+		font-size: 14px;
 	}
 }
 
@@ -492,6 +517,12 @@ h6 {
 	.projects-text {
 		font-size: 14px;
 	}
+
+	hr,
+	.footer-menu-list {
+		display: none;
+	}
+
 }
 
 /* MINI MOBILE */
