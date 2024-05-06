@@ -284,6 +284,7 @@ hr {
 .footer-menu-link {
 	color: var(--footer-text-color);
 }
+
 /* ========== FOOTER ========== */
 
 /* PC */
@@ -530,8 +531,23 @@ hr {
 }
 
 /* MINI MOBILE */
-@media (max-width: 320px) {
+@media (max-width: 375px) {
+	/* .project-list-item, */
+	.projects-item-img {
+		max-width: 100%;
+	}
+
+	.projects-item-links {
+		margin-bottom: 20px;
+	}
+
+	.projects-list-item {
+		height: auto;
+	}
+}
+
+/* @media (max-width: 320px) {
 	.wrapper {
 		max-width: auto;
 	}
-}
+} */
