@@ -5,7 +5,7 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
-	background: #F5F5F5;
+	background: var(--body-color);
 }
 
 h1,
@@ -14,13 +14,13 @@ h3,
 h4,
 h5,
 h6 {
-	color: #42446E;
+	color: var(--title-color);
 }
 
 hr {
 	height: 2px;
 	border: none;
-	background-color: lightgray;
+	background-color: var(--line-color);
 }
 
 .wrapper {
@@ -64,7 +64,7 @@ hr {
 }
 
 .list-item-link {
-	color: #666666;
+	color: var(--text-color);
 }
 
 .hamburger {
@@ -130,7 +130,7 @@ hr {
 	font-weight: 400;
 	font-size: 32px;
 	text-align: center;
-	color: #666;
+	color: var(--text-color);
 	margin: 50px 0 140px 0;
 }
 
@@ -173,7 +173,7 @@ hr {
 	font-weight: 400;
 	font-size: 32px;
 	text-align: center;
-	color: #666;
+	color: var(--text-color);
 	margin: 50px 0 100px 0;
 }
 
@@ -182,7 +182,7 @@ hr {
 	width: 375px;
 	height: 567px;
 	box-shadow: 2px 2px 100px 0 rgba(0, 0, 0, 0.2);
-	background: #fff;
+	background: var(--projects-background-color);
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
@@ -204,21 +204,21 @@ hr {
 .projects-item-title {
 	font-weight: 500;
 	font-size: 28px;
-	color: #000;
+	color: var(--projects-title-color);
 	margin: 10px 0 0 0;
 }
 
 .projects-item-text {
 	font-weight: 300;
 	font-size: 18px;
-	color: #666;
+	color: var(--projects-text-color);
 	margin: 15px 0 12px 0;
 }
 
 .projects-item-tech-stack {
 	font-weight: 400;
 	font-size: 16px;
-	color: #42446e;
+	color: var(--projects-text-tech-color);
 }
 
 .projects-item-tech-stack span {
@@ -246,7 +246,7 @@ hr {
 	font-size: 16px;
 	text-decoration: underline;
 	text-decoration-skip-ink: none;
-	color: #000;
+	color: var(--link-text-color);
 }
 
 /* ========== PROJECTS ========== */
@@ -267,7 +267,7 @@ hr {
 	font-family: "DM Sans", sans-serif;
 	font-weight: 400;
 	font-size: 18px;
-	color: #42446e;
+	color: var(--info-text-color);
 }
 
 /* ========== INFO ========== */
@@ -279,6 +279,10 @@ hr {
 	display: flex;
 	margin: 60px 0;
 	gap: 55px;
+}
+
+.footer-menu-link {
+	color: var(--footer-text-color);
 }
 /* ========== FOOTER ========== */
 
