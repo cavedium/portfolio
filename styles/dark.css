@@ -1,0 +1,78 @@
+:root {
+	--body-color: #191919;
+	--text-color: #a7a7a7;
+	--hero-title-color: #D9D9D9;
+	--title-color: #CCCCCC;
+	--projects-background-color: #363636;
+	--projects-title-color: #CCCCCC;
+	--projects-text-color: #CCCCCC;
+	--projects-text-tech-color: #CCCCCC;
+	--link-text-color: #CCCCCC;
+	--info-text-color: #a7a7a7;
+	--footer-text-color: #a7a7a7;
+	--line-color: #42446E;
+}
+
+.hero-title {
+	color: var(--hero-title-color);
+}
+
+.social-net-list-item.github img,
+.social-net-list-item.twitter img,
+.social-net-list-item.linkdin img {
+	opacity: 0;
+}
+
+.social-net-list-item.github {
+	background-image: url(../img/dark/github-logo-dark.svg);
+}
+
+.social-net-list-item.twitter {
+	background-image: url(../img/dark/twitter-logo-dark.svg);
+
+}
+
+.social-net-list-item.linkdin {
+	background-image: url(../img/dark/linkedin-logo-dark.svg);
+}
+
+.social-net-list-item.github,
+.social-net-list-item.twitter,
+.social-net-list-item.linkdin {
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.tech-stack-item.greensock img,
+.tech-stack-item.githubp img {
+	opacity: 0;
+}
+
+.tech-stack-item.greensock {
+	background-image: url(../img/dark/greensock-icon-dark.svg);
+	/* background-position: center; */
+	background-repeat: no-repeat;
+}
+
+.tech-stack-item.githubp {
+	background-image: url(../img/dark/github-icon-dark.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.projects-item-links.link img,
+.projects-item-links.git img {
+	opacity: 0;
+}
+
+.projects-item-links.link {
+	background-image: url(../img/dark/link-logo-dark.svg);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.projects-item-links.git {
+	background-image: url(../img/dark/github-logo-dark-2.svg);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
