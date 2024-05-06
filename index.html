@@ -5,11 +5,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Alexander Shport</title>
+	<link rel="shortcut icon" href="./img/logo-1.png" type="image/x-icon">
 	<link
 		href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@300;400;500;700&display=swap"
 		rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="./styles/main.css">
+	<link rel="stylesheet" href="./styles/light.css" media="(prefers-color-scheme: light)">
+	<link rel="stylesheet" href="./styles/dark.css" media="(prefers-color-scheme: dark)">
 </head>
 
 <body>
@@ -89,7 +92,7 @@
 		<!-- My Tech Stack -->
 		<section class="my-tech-stack">
 			<div class="wrapper">
-				<h1 class="my-tech-stack-title">My Tech Stack</h1>
+				<h2 class="my-tech-stack-title">My Tech Stack</h2>
 				<p class="my-tech-stack-text">Technologies I’ve been working with recently</p>
 				<div class="swiper mySwiper">
 					<ul class="tech-stack-list swiper-wrapper list">
@@ -128,7 +131,7 @@
 							<img src="./img/git-icon.svg" alt="git" class="tech-stack-logo" width="120px"
 								height="120px">
 						</li>
-						<li class="swiper-slide tech-stack-item">
+						<li class="swiper-slide tech-stack-item greensock">
 							<img src="./img/greensock-icon.svg" alt="greensock" class="tech-stack-logo" width="120px"
 								height="120px">
 						</li>
@@ -136,7 +139,7 @@
 							<img src="./img/vscode-icon.svg" alt="vscode" class="tech-stack-logo" width="120px"
 								height="120px">
 						</li>
-						<li class="swiper-slide tech-stack-item">
+						<li class="swiper-slide tech-stack-item githubp">
 							<img src="./img/github-icon.svg" alt="github" class="tech-stack-logo" width="120px"
 								height="120px">
 						</li>
@@ -151,7 +154,7 @@
 		<!-- Projects -->
 		<section class="projects">
 			<div class="wrapper">
-				<h1 class="projects-title">Projects</h1>
+				<h2 class="projects-title">Projects</h2>
 				<p class="projects-text">Things I’ve built so far</p>
 				<ul class="projects-list list">
 					<li class="projects-list-item">
@@ -166,13 +169,13 @@
 									React</span>
 							</p>
 							<ul class="projects-item-links-list list">
-								<li class="projects-item-links">
+								<li class="projects-item-links link">
 									<img src="./img/link-icon.svg" alt="link" class="link-logo" width="20px"
 										height="20px">
 									<a href="#" class="link-text">Live Preview</a>
 								</li>
-								<li class="projects-item-links">
-									<img src="./img/git-icon-2.svg" alt="git" class="link-logo" width="20px"
+								<li class="projects-item-links git">
+									<img src="./img/git-icon-2.svg" alt="git" class="git-logo" width="20px"
 										height="20px">
 									<a href="" class="link-text">View Code</a>
 								</li>
@@ -191,13 +194,13 @@
 									React</span>
 							</p>
 							<ul class="projects-item-links-list list">
-								<li class="projects-item-links">
+								<li class="projects-item-links link">
 									<img src="./img/link-icon.svg" alt="link" class="link-logo" width="20px"
 										height="20px">
 									<a href="#" class="link-text">Live Preview</a>
 								</li>
-								<li class="projects-item-links">
-									<img src="./img/git-icon-2.svg" alt="git" class="link-logo" width="20px"
+								<li class="projects-item-links git">
+									<img src="./img/git-icon-2.svg" alt="git" class="git-logo" width="20px"
 										height="20px">
 									<a href="#" class="link-text">View Code</a>
 								</li>
@@ -216,13 +219,13 @@
 									React</span>
 							</p>
 							<ul class="projects-item-links-list list">
-								<li class="projects-item-links">
+								<li class="projects-item-links link">
 									<img src="./img/link-icon.svg" alt="link" class="link-logo" width="20px"
 										height="20px">
 									<a href="#" class="link-text">Live Preview</a>
 								</li>
-								<li class="projects-item-links">
-									<img src="./img/git-icon-2.svg" alt="git" class="link-logo" width="20px"
+								<li class="projects-item-links git">
+									<img src="./img/git-icon-2.svg" alt="git" class="git-logo" width="20px"
 										height="20px">
 									<a href="#" class="link-text">View Code</a>
 								</li>
@@ -275,11 +278,23 @@
 	<footer class="footer">
 		<div class="wrapper">
 			<ul class="footer-menu-list list">
-				<li class="footer-menu-item">Home</li>
-				<li class="footer-menu-item">About</li>
-				<li class="footer-menu-item">Technologies</li>
-				<li class="footer-menu-item">Projects</li>
-				<li class="footer-menu-item">Contact</li>
+				<li class="footer-menu-item">
+					<a href="#" class="footer-menu-link link">Home</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="#" class="footer-menu-link link">About</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="#" class="footer-menu-link link">Technologies</a>
+
+				</li>
+				<li class="footer-menu-item">
+					<a href="#" class="footer-menu-link link">Projects</a>
+
+				</li>
+				<li class="footer-menu-item">
+					<a href="#" class="footer-menu-link link">Contact</a>
+				</li>
 			</ul>
 		</div>
 	</footer>
